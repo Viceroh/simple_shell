@@ -1,7 +1,7 @@
-#include "viceroh"
+#include "viceroh.h"
 
 /**
-* get_builtin - builti whih passes  the cmd ind arg
+* get_builtin - buillti whih passs  the cmd ind arg
 * @cmd: cmd
 * Return: funct. pointer of the builtin md
 */
