@@ -1,7 +1,7 @@
 #include "viceroh.h"
 
 /**
-* copy_info - copy info or information to create
+* copy_info - copy information or info to create
 * a new env
 * @name : namr
 * @value: value
@@ -58,11 +58,11 @@ datash->_environ[i + 1] = NULL;
 }
 
 /**
-* _setenv - compares environment var. name
+* _setenv - compares environ var. name
 * with passed name
 * @datash: data relevant
 *
-* Return : 1 is returned on sucess
+* Return : 1 is returned on sucess.
 */
 int _setenv(data_shell *datash)
 {

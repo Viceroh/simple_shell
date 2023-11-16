@@ -16,12 +16,13 @@ return (i);
 }
 
 /**
-* error_sep_op - looks for d syntax mistake
+* error_sep_op - looks for syntax mistake
 *
-* @input: input of the string
+* @input: input of string
 * @i: index
-* @last: latest xter read
+* @last: latest character read
 * errors
+* Return: 1 is returned on error and zero if there is none.
 */
 int error_sep_op(char *input, int i, char last)
 {

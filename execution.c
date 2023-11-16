@@ -23,7 +23,7 @@ return (0);
 }
 
 /**
-* _which - it locates the cmd
+* _which - locates the cmd
 *
 * @cmd: name of the command
 * @_environ: The environment var.
